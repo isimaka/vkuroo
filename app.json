@@ -1,0 +1,24 @@
+{
+  "name": "vkuro",
+  "description": "Run vkuro on Heroku.",
+  "keywords": [
+    "vkuro"
+  ],
+  "env": {
+    "ID": {
+      "description": "UUID",
+      "value": "c9dc8699-73e5-4f2c-a41f-5cb850c28925"
+    },
+    "AID": {
+      "description": "AlterID",
+      "value": "64"
+    },
+    "WSPATH": {
+      "description": "WebSocket Path",
+      "value": "/"
+    }
+  },
+  "website": "https://vkuro.com/vkuro/",
+  "repository": "https://github.com/isimaka/vkuro",
+  "stack": "container"
+}
